@@ -33,6 +33,48 @@
       <div class="desktopImgWrapper">
         <img class="containerImg" src="./assets/img/image.png" alt="desktop" />
       </div>
+      <div class="modal">
+        <div class="modalContent">
+          <div class="buttonContainer">
+            <button class="closeBtn">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+              >
+                <path
+                  d="M18 6L6 18"
+                  stroke="black"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M6 6L18 18"
+                  stroke="black"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+          </div>
+          <h2 class="modalTitle">Войти в систему</h2>
+          <form>
+            <input type="text" placeholder="Email/Телефон" />
+            <input type="password" placeholder="Пароль" />
+            <div>
+              <input type="checkbox" name="rememberPass" id="rememberPass" />
+              <label for="rememberPass">Запомнить пароль</label>
+            </div>
+            <button class="resetBtn">Восстановить</button>
+            <button class="submitBtn">Войти</button>
+            <button class="registerBtn">Зарегестрироваться</button>
+          </form>
+        </div>
+      </div>
     </div>
     <script src="./script.js"></script>
   </body>
