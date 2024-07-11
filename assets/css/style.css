@@ -64,10 +64,14 @@ body {
 .modal {
   width: 100%;
   position: absolute;
-  display: flex;
+  display: none;
   justify-content: center;
   align-items: center;
   background-color: rgba(0, 0, 0, 0.369);
+}
+
+.active {
+  display: flex;
 }
 
 .modalContainer {
