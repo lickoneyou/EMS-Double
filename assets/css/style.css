@@ -1,0 +1,60 @@
+body {
+  max-width: 1920px;
+  font-family: 'Manrope', sans-serif;
+  font-size: 18px;
+  padding: 2px 40px;
+}
+
+.container {
+  background: #ebf0fa;
+  display: flex;
+  gap: 190px;
+  border-radius: 10px;
+}
+
+.containerDescription {
+  padding: 72px 0 72px 72px;
+  width: 538px;
+}
+
+.containerDescription h1 {
+  color: #1f4284;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 160%; /* 48px */
+  margin-bottom: 5px;
+}
+
+.containerDescription > p {
+  color: #727272;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 160%; /* 27.2px */
+  margin-bottom: 36px;
+}
+
+.containerDescription button {
+  display: flex;
+  padding: 12px 12px 12px 24px;
+  align-items: center;
+  gap: 64px;
+  border-radius: 60px;
+  background: #244c98;
+}
+
+.containerDescription button p {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 160%; /* 28.8px */
+}
+
+.imgWrapper {
+  border-radius: 40px;
+  background: #fff;
+  padding: 12px 12px 12px 12px;
+}
+
+.containerImg {
+  height: 100%;
+}
