@@ -189,3 +189,11 @@ input[type='password'] {
   color: #244c98;
   margin-bottom: 0;
 }
+
+/* 1440 */
+
+@media screen and (max-width: 1440px) {
+  .container {
+    gap: 97px;
+  }
+}
