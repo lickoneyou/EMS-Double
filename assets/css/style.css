@@ -197,3 +197,16 @@ input[type='password'] {
     gap: 97px;
   }
 }
+
+/* 768 */
+
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .containerDescription {
+    padding: 24px;
+  }
+}
