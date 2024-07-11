@@ -50,6 +50,7 @@ body {
 }
 
 .imgWrapper {
+  display: flex;
   border-radius: 40px;
   background: #fff;
   padding: 12px 12px 12px 12px;
@@ -208,5 +209,32 @@ input[type='password'] {
 
   .containerDescription {
     padding: 24px;
+  }
+}
+
+/* 375 */
+
+@media screen and (max-width: 375px) {
+  .containerDescription h1 {
+    font-size: 17px;
+  }
+
+  .containerDescription > p {
+    font-size: 13px;
+  }
+
+  .containerDescription .openBtn {
+    padding: 10px 10px 10px 18px;
+    width: 100%;
+    gap: 0;
+    justify-content: space-between;
+  }
+
+  .containerDescription button p {
+    font-size: 11px;
+  }
+
+  .imgWrapper {
+    padding: 6px;
   }
 }
