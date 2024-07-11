@@ -14,7 +14,7 @@ body {
 
 .containerDescription {
   padding: 72px 0 72px 72px;
-  width: 538px;
+  max-width: 538px;
 }
 
 .containerDescription h1 {
